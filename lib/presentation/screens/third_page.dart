@@ -3,7 +3,6 @@ import 'package:flutter_application_1/presentation/screens/second_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_application_1/logic/cubit/counter_cubit.dart';
 
-import 'first_page.dart';
 
 class ThirdPage extends StatefulWidget {
 

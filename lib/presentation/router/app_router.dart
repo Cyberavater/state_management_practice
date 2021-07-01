@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/logic/cubit/counter_cubit.dart';
 import 'package:flutter_application_1/presentation/screens/first_page.dart';
