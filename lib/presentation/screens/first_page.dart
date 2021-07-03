@@ -1,5 +1,7 @@
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/logic/cubit/internet_cubit.dart';
 import 'package:flutter_application_1/presentation/screens/third_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_application_1/logic/cubit/counter_cubit.dart';
@@ -16,6 +18,7 @@ class FirstPage extends StatefulWidget {
 }
 
 class _FirstPageState extends State<FirstPage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
